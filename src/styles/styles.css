@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  color: #4f6367;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background-color: #b8d8d8;
+  padding-bottom: 2%;
+}
+
+.cabeçalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #7a9e9f;
+  padding: 1%;
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  gap: 70px;
+}
+
+.apresentação {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 35px;
+  font-weight: bold;
+  height: 478px;
+}
+
+.texto h2 {
+  font-size: 25px;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  gap: 7px;
+  margin-top: 2%;
+}
+
+nav a:hover,
+.texto h1:hover,
+.texto h2:hover,
+.redes-sociais a:hover {
+  color: #eef5db;
+}
+
+#linha-separadora {
+  height: 10px;
+  background-color: white;
+}
+
+#sobre,
+#portfolio {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #b8d8d8;
+}
+
+.titulo-sobre h1,
+.titulo-portfolio h1 {
+  /* padding-top: 5%; */
+  font-size: 35px;
+}
+
+.titulo-sobre h2,
+.titulo-portfolio h2 {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.texto-sobre,
+.texto-sobre-2,
+.imagens-portfolio {
+  padding-top: 2%;
+  font-weight: 600;
+  font-size: 15px;
+  padding-bottom: 2%;
+}
+
+.hard-skills {
+  background-color: #b8d8d8;
+}
+
+.hard-skills-icons,
+.hard-skills-icons-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.hard-skills-icons-2 {
+  padding-bottom: 3%;
+}
+
+.imagens-portfolio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+footer {
+  font-size: 12px;
+  height: 20px;
+}
